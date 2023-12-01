@@ -1,0 +1,16 @@
+//this is code to console.log each item in an array using a forEach loop
+
+let myArray = [1, 2, 3, 4, 5];
+
+myArray.forEach(function (item) {
+    console.log(item);
+}
+
+// Path: .vscode/forOf
+//this is code to console.log each item in an array using a for of loop
+
+let myArray = [1, 2, 3, 4, 5];
+
+for (let item of myArray) {
+    console.log(item);
+}
